@@ -3,6 +3,8 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Stats from "../components/Stats/Stats";
 import WhyChooseUs from "../sections/WhyChooseUs";
+import CTASection from "../sections/CTASection";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
       <Stats/>
       <ExploreCourses/>
       <WhyChooseUs/>
+      <CTASection/>
+      <Footer/>
     </>
   );
 };

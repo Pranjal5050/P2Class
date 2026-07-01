@@ -1,80 +1,5 @@
-// import React from "react";
-
-// const CourseCard = ({
-//   title,
-//   board,
-//   subjects,
-//   price,
-//   image,
-// }) => {
-//   return (
-//     <div
-//       className="
-//         bg-white
-//         rounded-xl
-//         shadow-lg
-//         overflow-hidden
-//         border
-//         border-gray-100
-//         hover:-translate-y-2
-//         hover:shadow-xl
-//         transition
-//         duration-300
-//       "
-//     >
-//       {/* Image */}
-
-//       <div className="md:h-44 h-78 bg-gray-100">
-//         <img
-//           src={image}
-//           alt={title}
-//           className="w-full h-full object-cover"
-//         />
-//       </div>
-
-//       {/* Content */}
-
-//       <div className="p-5">
-
-//         <h3 className="text-xl font-bold text-[#041d63]">
-//           {title}
-//         </h3>
-
-//         <p className="text-gray-500 mt-2">
-//           {board}
-//         </p>
-
-//         <p className="text-gray-600 mt-2">
-//           {subjects}
-//         </p>
-
-//         <h4 className="text-yellow-500 text-2xl font-bold mt-4">
-//           ₹{price}
-//         </h4>
-
-//         <button
-//           className="
-//             w-full
-//             mt-5
-//             bg-[#041d63]
-//             text-white
-//             py-3
-//             rounded-lg
-//             hover:bg-blue-900
-//             transition
-//           "
-//         >
-//           View Course
-//         </button>
-
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default CourseCard;
-
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   Star,
   Clock3,
@@ -258,8 +183,9 @@ const CourseCard = ({
 
         {/* Button */}
 
-        <button
-          className="
+        <Link to={`/course/1`}>
+          <button
+            className="
             group
             w-full
             mt-6
@@ -275,16 +201,17 @@ const CourseCard = ({
             transition-all
             duration-300
           "
-        >
+          >
 
-          Enroll Now
+            Enroll Nows
 
-          <ArrowRight
-            size={18}
-            className="group-hover:translate-x-1 transition"
-          />
+            <ArrowRight
+              size={18}
+              className="group-hover:translate-x-1 transition"
+            />
 
-        </button>
+          </button>
+        </Link>
 
       </div>
     </div>
