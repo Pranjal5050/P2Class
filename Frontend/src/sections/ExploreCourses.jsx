@@ -30,7 +30,7 @@ const ExploreCourses = () => {
 
   const courses = [
     {
-      title: "Understanding Node.js: Core Concepts",
+      title: "Class 9",
       board: "CBSE / ICSE",
       subjects: "Maths, Science, English",
 
@@ -89,6 +89,48 @@ const ExploreCourses = () => {
 
       discount: "30% OFF",
 
+      image: "/course3.png",
+    },
+
+    {
+      title: "Class 9",
+      board: "CBSE / ICSE",
+      subjects: "Maths, Science, English",
+
+      price: 699,
+      oldPrice: 999,
+
+      rating: 4.9,
+
+      students: "12,540",
+
+      duration: "120 Hours",
+
+      badge: "Best Seller",
+
+      discount: "30% OFF",
+
+      image: "/course4.png",
+    },
+
+    {
+      title: "Class 9",
+      board: "CBSE / ICSE",
+      subjects: "Maths, Science, English",
+
+      price: 699,
+      oldPrice: 999,
+
+      rating: 4.9,
+
+      students: "12,540",
+
+      duration: "120 Hours",
+
+      badge: "Best Seller",
+
+      discount: "30% OFF",
+
       image: "/course5.png",
     },
 
@@ -111,48 +153,6 @@ const ExploreCourses = () => {
       discount: "30% OFF",
 
       image: "/course6.png",
-    },
-
-    {
-      title: "Class 9",
-      board: "CBSE / ICSE",
-      subjects: "Maths, Science, English",
-
-      price: 699,
-      oldPrice: 999,
-
-      rating: 4.9,
-
-      students: "12,540",
-
-      duration: "120 Hours",
-
-      badge: "Best Seller",
-
-      discount: "30% OFF",
-
-      image: "/course7.png",
-    },
-
-    {
-      title: "Class 9",
-      board: "CBSE / ICSE",
-      subjects: "Maths, Science, English",
-
-      price: 699,
-      oldPrice: 999,
-
-      rating: 4.9,
-
-      students: "12,540",
-
-      duration: "120 Hours",
-
-      badge: "Best Seller",
-
-      discount: "30% OFF",
-
-      image: "/course8.png",
     },
   ];
 

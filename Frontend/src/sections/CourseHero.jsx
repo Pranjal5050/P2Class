@@ -20,7 +20,7 @@ const CourseHero = () => {
     access: "Lifetime Access",
     price: 999,
     oldPrice: 1499,
-    image: "/course5.png",
+    image: "/course.png",
   };
 
   return (
@@ -43,7 +43,6 @@ const CourseHero = () => {
                 h-[260px]
                 sm:h-[350px]
                 lg:h-[480px]
-                object-cover
                 transition
                 duration-700
                 group-hover:scale-105

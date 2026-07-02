@@ -95,7 +95,7 @@ const CourseCard = ({
             className="
             w-full
             h-full
-            md:object-cover
+            md:object-center
             transition-all
             duration-700
             group-hover:scale-110"
